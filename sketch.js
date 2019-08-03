@@ -1,11 +1,12 @@
+//Special Thanks to Daniel Shiffman For Teaching me this Stuff
+//link to his Youtube Channel 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw'
+
 let canvas;
 let balls = [];
 let gravity = 0.1;
 let button ;
 let bgcol ;
 let h1;
-
-
 function windowResized(){
 	resizeCanvas(windowWidth, windowHeight);
 }
